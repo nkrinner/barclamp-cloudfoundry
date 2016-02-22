@@ -1,0 +1,28 @@
+{
+  "id": "bc-template-cloudfoundry",
+  "description": "Cloud Foundry",
+  "attributes": {
+    "cloudfoundry": {
+    }
+  },
+  "deployment": {
+    "cloudfoundry": {
+      "crowbar-revision": 0,
+      "crowbar-applied": false,
+      "elements": {},
+      "element_states": {
+        "cloudfoundry": [ "readying", "ready", "applying" ]
+      },
+      "element_order": [
+        [ "cloudfoundry" ]
+      ],
+      "config": {
+        "environment": "cloudfoundry-config-base",
+        "mode": "full",
+        "transitions": false,
+        "transition_list": []
+      }
+    }
+  }
+}
+
